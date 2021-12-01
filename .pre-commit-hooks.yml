@@ -1,0 +1,13 @@
+- id: echo
+  name: echo
+  entry: echo
+  language: python
+  'types': [ python ]
+
+- id: autopep8
+  name: autopep8
+  entry: autopep8
+  language: python
+  'types': [python]
+  args: ["-i"]
+
