@@ -29,5 +29,5 @@
   entry: flake8
   language: python
   'types': [python]
-  args: ["--max-line-length 100"]
+  args: ["--max-line-length", "100"]
 
