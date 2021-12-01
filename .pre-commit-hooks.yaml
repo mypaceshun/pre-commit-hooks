@@ -31,3 +31,9 @@
   'types': [python]
   args: ["--max-line-length", "100"]
 
+- id: pytest
+  name: pytest
+  entry: pytest
+  language: python
+  'types': [python]
+
