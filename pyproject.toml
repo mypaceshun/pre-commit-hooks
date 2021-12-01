@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "shun-hooks"
-version = "0.9.1"
+version = "1.0.0"
 description = "shun hooks for pre-commit"
 authors = ["KAWAI Shun <shun@osstech.co.jp>"]
 license = "MIT"
