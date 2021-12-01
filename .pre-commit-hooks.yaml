@@ -11,6 +11,13 @@
   'types': [python]
   args: ["-i"]
 
+- id: autoflake
+  name: autoflake
+  entry: autoflake
+  language: python
+  'types': [python]
+  args: ["-ir", "--remove-all-unused-imports", "--remove-unused-variables", "--ignore-init-module-imports"]
+
 - id: flake8
   name: flake8
   entry: flake8
